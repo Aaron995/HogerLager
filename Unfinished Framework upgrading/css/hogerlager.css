@@ -1,0 +1,51 @@
+
+
+body {
+	background-color:gray;
+	}
+	
+#container {
+	width:850px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:white;
+	}
+nav{
+	width:750px;
+	margin-left:auto;
+	margin-right:auto;
+	}
+	
+#score {
+	width:33.33%;
+	float:left;
+	margin-bottom:10px;
+
+	}
+button {
+	float:left;
+	width:300px;
+	font-size:22px;
+	color:purple;
+	font-weight:bold;
+	padding:5px 15px;
+	margin-top:8px;
+	height:100px;
+	}
+	
+div img{
+	width:60px;
+	padding-top:5px;
+	}
+input {
+	margin-top:10px;
+	}
+
+#inzet {
+	text-align:center;
+	float:right;
+	}
+#clearing {
+	clear: both; 
+	margin-bottom:25px;
+	}
