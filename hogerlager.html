@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Hoger lager</title>
+		<meta charset = "utf-8">
+		<link rel = "stylesheet" href = "css/hogerlager.css">
+		<script src="js/hogerlager.js"></script>
+	</head>
+	<body> 
+		<div id = "container">
+			<canvas id = "canvas" width = "850" height = "475">
+				Your browser doesn"t support the HTML5 element canvas.
+			</canvas> 
+			<div id = "navigatie">
+				<button id = "bankGooien" onClick = "bankDobbelsteen()">computer gooien </button>
+				<div id = "score">
+					<fieldset>
+						<legend>verwachting</legend>
+						<div id = "inzet">
+							<img src = "img/down.jpg" alt = "inszetten button" title = "klik om je inzet te verlagen" onClick = "inzetten('-')"/>
+							<img src = "img/up.jpg"   alt = "inszetten button" title = "klik om je inzet te verhogen" onClick = "inzetten('+')"/>
+						</div>
+						<input type = "radio" name = "verwachting" value = "hoger" onClick = "rolHoger()">Hoger </br>
+						<input type = "radio" name = "verwachting" value = "lager" onClick = "rolLager()">Lager </br>
+					</fieldset> 
+				</div>	
+				<button id = "spelerGooien" onClick = "okKnop()">speler gooien </button>
+                <button id = "reset" onClick = "reageerOpLaden()">Herstart</button>
+			</div>
+		</div>
+	</body>
+</html>
