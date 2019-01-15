@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Hoger lager</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/hogerlager.css">
+    <script src="js/SpelHoLa.js"></script>
+    <script src="js/startHoLa.js"></script>
+    <script src="js/ControllerHoLa.js"></script>
+    <script src="js/ViewHoLa.js"></script>
+    <script src="js/SpelerHoLa.js"></script>
+    <script src="js/BankHoLa.js"></script>
+    <script src="js/DobbelsteenHoLa.js"></script>
+    <script src="js/Portemonnee.js"></script>
+</head>
+
+<body>
+    <div id="container">
+        <canvas id="canvas" width="850" height="475">
+            Your browser doesn"t support the HTML5 element canvas.
+        </canvas>
+        <nav>
+            <button id="computerGooien">bank gooien </button>
+            <div id="score">
+                <fieldset>
+                    <legend>verwachting</legend>
+                    <div id="inzet">
+                        <img src="img/down.jpg" alt="inzetten button" title="klik om je inzet te verlagen" id="inzetVerlagen" />
+                        <img src="img/up.jpg" alt="inzetten button" title="klik om je inzet te verhogen" id="inzetVerhogen" />
+                    </div>
+                    <input type="radio" name="verwachting" value="hoger" id="hoger">Hoger </br>
+                    <input type="radio" name="verwachting" value="lager" id="lager">Lager </br>
+            </div>
+                </fieldset>
+            </div>
+            <button id="spelerGooien">speler gooien </button>
+        </nav>
+    </div>
+</body>
+
+</html>
